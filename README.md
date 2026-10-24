@@ -55,7 +55,7 @@ python main.py plot --results results/scaling_repeat --operations results/operat
 ```
 
 These are long-running experiments, not installation checks. Both key files are
-loaded into memory. See [benchmark details](benchmarks/README.md) for timing,
+loaded into memory.
 workload definitions, validation, and progress reporting.
 
 ## Recreate figures from saved results
