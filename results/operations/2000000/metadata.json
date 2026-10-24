@@ -1,0 +1,263 @@
+{
+  "status": "complete",
+  "started_utc": "2026-10-24T02:55:41.217018+00:00",
+  "python": "3.12.15 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:14:50) [MSC v.1942 64 bit (AMD64)]",
+  "python_executable": "C:\\Users\\imam2308\\AppData\\Local\\miniconda3\\envs\\cosc520_a2\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "dataset_directory": "\\\\files.ok.ubc.ca\\imam2308\\COSC520_Assignments\\COSC520_A2\\data\\generated\\10m",
+  "dataset_manifest": {
+    "generator_version": 1,
+    "seed": 520,
+    "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+    "min_length": 10,
+    "max_length": 24,
+    "length_distribution": "uniform inclusive; duplicate candidates rejected",
+    "format": "ASCII, one key per line, LF line endings",
+    "ordering": "case-sensitive Python lexicographic order",
+    "uniqueness": "unique within and disjoint across both files",
+    "files": {
+      "insert_keys.txt": {
+        "count": 10000000,
+        "length_counts": {
+          "10": 666606,
+          "11": 666715,
+          "12": 666717,
+          "13": 666677,
+          "14": 667248,
+          "15": 666138,
+          "16": 667538,
+          "17": 665812,
+          "18": 667364,
+          "19": 665513,
+          "20": 667212,
+          "21": 667565,
+          "22": 666719,
+          "23": 666869,
+          "24": 665307
+        }
+      },
+      "missing_keys.txt": {
+        "count": 10000000,
+        "length_counts": {
+          "10": 666982,
+          "11": 665959,
+          "12": 667370,
+          "13": 665982,
+          "14": 666431,
+          "15": 665885,
+          "16": 666521,
+          "17": 666815,
+          "18": 666938,
+          "19": 667434,
+          "20": 666681,
+          "21": 665902,
+          "22": 665933,
+          "23": 667642,
+          "24": 667525
+        }
+      }
+    }
+  },
+  "trials": 4,
+  "seed": 520,
+  "queries_per_search_phase": 20000,
+  "selected_key_count": 2000000,
+  "selected_missing_count": 2000000,
+  "dataset_selection": "first n keys from each source file",
+  "validation_enabled": false,
+  "timer": "perf_counter_ns",
+  "gc_disabled_during_timing": true,
+  "timing_scope": "operation loop, method calls, rotation counters, result accumulation",
+  "experiment": "operations",
+  "update_batch_count": 20000,
+  "search_count_rule": "max(10000, n // 100)",
+  "baseline": "fresh randomly built n-key tree for every phase",
+  "update_count_rule": "max(1, n // 100)",
+  "workload_seeds": [
+    520,
+    521,
+    522,
+    523
+  ],
+  "combined_utc": "2026-10-24T05:51:03.948797+00:00",
+  "source_runs": [
+    {
+      "directory": "\\\\files.ok.ubc.ca\\imam2308\\COSC520_Assignments\\COSC520_A2\\results\\operations_2trials\\2000000",
+      "original_trials": [
+        1,
+        2
+      ],
+      "combined_trials": [
+        1,
+        2
+      ],
+      "metadata": {
+        "status": "complete",
+        "started_utc": "2026-10-24T02:55:41.217018+00:00",
+        "python": "3.12.15 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:14:50) [MSC v.1942 64 bit (AMD64)]",
+        "python_executable": "C:\\Users\\imam2308\\AppData\\Local\\miniconda3\\envs\\cosc520_a2\\python.exe",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+        "dataset_directory": "\\\\files.ok.ubc.ca\\imam2308\\COSC520_Assignments\\COSC520_A2\\data\\generated\\10m",
+        "dataset_manifest": {
+          "generator_version": 1,
+          "seed": 520,
+          "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+          "min_length": 10,
+          "max_length": 24,
+          "length_distribution": "uniform inclusive; duplicate candidates rejected",
+          "format": "ASCII, one key per line, LF line endings",
+          "ordering": "case-sensitive Python lexicographic order",
+          "uniqueness": "unique within and disjoint across both files",
+          "files": {
+            "insert_keys.txt": {
+              "count": 10000000,
+              "length_counts": {
+                "10": 666606,
+                "11": 666715,
+                "12": 666717,
+                "13": 666677,
+                "14": 667248,
+                "15": 666138,
+                "16": 667538,
+                "17": 665812,
+                "18": 667364,
+                "19": 665513,
+                "20": 667212,
+                "21": 667565,
+                "22": 666719,
+                "23": 666869,
+                "24": 665307
+              }
+            },
+            "missing_keys.txt": {
+              "count": 10000000,
+              "length_counts": {
+                "10": 666982,
+                "11": 665959,
+                "12": 667370,
+                "13": 665982,
+                "14": 666431,
+                "15": 665885,
+                "16": 666521,
+                "17": 666815,
+                "18": 666938,
+                "19": 667434,
+                "20": 666681,
+                "21": 665902,
+                "22": 665933,
+                "23": 667642,
+                "24": 667525
+              }
+            }
+          }
+        },
+        "trials": 2,
+        "seed": 520,
+        "queries_per_search_phase": 20000,
+        "selected_key_count": 2000000,
+        "selected_missing_count": 2000000,
+        "dataset_selection": "first n keys from each source file",
+        "validation_enabled": false,
+        "timer": "perf_counter_ns",
+        "gc_disabled_during_timing": true,
+        "timing_scope": "operation loop, method calls, rotation counters, result accumulation",
+        "experiment": "operations",
+        "update_batch_count": 20000,
+        "search_count_rule": "max(10000, n // 100)",
+        "baseline": "fresh randomly built n-key tree for every phase",
+        "update_count_rule": "max(1, n // 100)"
+      }
+    },
+    {
+      "directory": "\\\\files.ok.ubc.ca\\imam2308\\COSC520_Assignments\\COSC520_A2\\results\\operations_trials3_4\\2000000",
+      "original_trials": [
+        1,
+        2
+      ],
+      "combined_trials": [
+        3,
+        4
+      ],
+      "metadata": {
+        "status": "complete",
+        "started_utc": "2026-10-24T04:20:12.773832+00:00",
+        "python": "3.12.15 | packaged by Anaconda, Inc. | (main, Oct  1 2026, 20:14:50) [MSC v.1942 64 bit (AMD64)]",
+        "python_executable": "C:\\Users\\imam2308\\AppData\\Local\\miniconda3\\envs\\cosc520_a2\\python.exe",
+        "platform": "Windows-11-10.0.26200-SP0",
+        "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+        "dataset_directory": "\\\\files.ok.ubc.ca\\imam2308\\COSC520_Assignments\\COSC520_A2\\data\\generated\\10m",
+        "dataset_manifest": {
+          "generator_version": 1,
+          "seed": 520,
+          "alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+          "min_length": 10,
+          "max_length": 24,
+          "length_distribution": "uniform inclusive; duplicate candidates rejected",
+          "format": "ASCII, one key per line, LF line endings",
+          "ordering": "case-sensitive Python lexicographic order",
+          "uniqueness": "unique within and disjoint across both files",
+          "files": {
+            "insert_keys.txt": {
+              "count": 10000000,
+              "length_counts": {
+                "10": 666606,
+                "11": 666715,
+                "12": 666717,
+                "13": 666677,
+                "14": 667248,
+                "15": 666138,
+                "16": 667538,
+                "17": 665812,
+                "18": 667364,
+                "19": 665513,
+                "20": 667212,
+                "21": 667565,
+                "22": 666719,
+                "23": 666869,
+                "24": 665307
+              }
+            },
+            "missing_keys.txt": {
+              "count": 10000000,
+              "length_counts": {
+                "10": 666982,
+                "11": 665959,
+                "12": 667370,
+                "13": 665982,
+                "14": 666431,
+                "15": 665885,
+                "16": 666521,
+                "17": 666815,
+                "18": 666938,
+                "19": 667434,
+                "20": 666681,
+                "21": 665902,
+                "22": 665933,
+                "23": 667642,
+                "24": 667525
+              }
+            }
+          }
+        },
+        "trials": 2,
+        "seed": 522,
+        "queries_per_search_phase": 20000,
+        "selected_key_count": 2000000,
+        "selected_missing_count": 2000000,
+        "dataset_selection": "first n keys from each source file",
+        "validation_enabled": false,
+        "timer": "perf_counter_ns",
+        "gc_disabled_during_timing": true,
+        "timing_scope": "operation loop, method calls, rotation counters, result accumulation",
+        "experiment": "operations",
+        "update_batch_count": 20000,
+        "search_count_rule": "max(10000, n // 100)",
+        "baseline": "fresh randomly built n-key tree for every phase",
+        "update_count_rule": "max(1, n // 100)"
+      }
+    }
+  ],
+  "combination_note": "Two separate two-trial runs; only trial IDs renumbered. Measurements unchanged."
+}

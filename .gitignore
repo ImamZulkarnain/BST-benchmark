@@ -1,0 +1,33 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Local/editor artifacts
+.local_archive/
+.vscode/
+.idea/
+*.TMP
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Large generated datasets (regenerate or download separately)
+/data/generated/
+
+# Instructor-provided assignment document
+/COSC 520 -Assignment 2-Sep 2026.pdf
+
+# Retain report results and source runs; ignore other local experiments
+/results/*
+!/results/README.md
+!/results/scaling/
+!/results/operations/
+!/results/operations_2trials/
+!/results/operations_trials3_4/
