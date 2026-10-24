@@ -68,5 +68,4 @@ python main.py plot --results results/scaling --operations results/operations --
 
 The committed results have their actual trial counts recorded in metadata.
 A command requesting five trials does not change previously collected results.
-The generator instructions support reproduction; the separately hosted dataset
-link must also be provided in the assignment report.
+The generator instructions support reproduction;
